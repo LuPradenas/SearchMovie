@@ -3,6 +3,9 @@ import React from "react";
 import CardMovie from "./CardMovie";
 
 function ListMovie(props) {
+ 
+  console.log(props)
+    
   return (
     <div className={`p-2 bd-highlight m-auto`}>
       {props.movies.map((movie, id) => {
