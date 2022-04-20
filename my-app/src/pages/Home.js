@@ -20,10 +20,13 @@ class Home extends Component {
         .then((data) => data.json())
         .then((data) => {
           this.setState({ movies: [data.results] });
+          console.table(data.results)
         });
       e.preventDefault();
     }
+
   };
+
 
   render() {
     return (

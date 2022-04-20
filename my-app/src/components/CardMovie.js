@@ -1,7 +1,6 @@
 import React from "react";
 
 const CardMovie = (props) => {
-    console.table(props)
 return(
     <div className={`p-2 bd-highlight m-auto`}>
     <div className={`card`}>

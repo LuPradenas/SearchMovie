@@ -20,7 +20,3 @@ function ListMovie(props) {
 }
 
 export default ListMovie;
-// {movies
-//   .filter((movie) => {
-//     return movie.title.toLowerCase().includes(search.toLowerCase());
-//   })
