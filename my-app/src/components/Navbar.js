@@ -1,18 +1,15 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-
+import React from "react";
 
 const Navbar = () => {
-
-return (
+  return (
     <nav className="navbar navbar-dark bg-dark">
-    <div className="container">
-        <Link to="/" className="navbar-brand m-2">
-        Movies Search
-        </Link>
-</div>
-</nav>
-)
-}
+      <div className="container">
+        <h1 className=" m-2 display-1" style={{ color: "white" }}>
+          Movies Search
+        </h1>
+      </div>
+    </nav>
+  );
+};
 
 export default Navbar;
